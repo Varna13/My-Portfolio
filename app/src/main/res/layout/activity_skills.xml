@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SkillsActivity">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/programming_languages_title"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/default_color"/>
+
+    <TextView
+        android:id="@+id/tvLanguages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/languages"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"
+        android:padding="5dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvTitle2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/database_"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/default_color"/>
+
+    <TextView
+        android:id="@+id/tvDataBase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/databases"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"
+        android:padding="5dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvTitle3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/operating_system_"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/default_color"/>
+
+    <TextView
+        android:id="@+id/tvOs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/operating_system"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"
+        android:padding="5dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvTitle4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/web_technology"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/default_color"/>
+
+    <TextView
+        android:id="@+id/tvWeb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/web"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"
+        android:padding="5dp"
+        android:textStyle="bold"/>
+
+</LinearLayout>

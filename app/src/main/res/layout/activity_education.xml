@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EducationActivity">
+
+    <TextView
+        android:id="@+id/tvEducation1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/education1"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/default_color"/>
+
+    <TextView
+        android:id="@+id/tvCourse1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/course1"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvPercentage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/percentage1"
+        android:textSize="20sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="15dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvEducation2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/college2"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/default_color"/>
+
+    <TextView
+        android:id="@+id/tvCourse2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/course2"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvPercentage2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/percentage2"
+        android:textSize="20sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="15dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvEducation3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/school"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/default_color"/>
+
+    <TextView
+        android:id="@+id/tvCourse3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/course3"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvPercentage3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/percentage3"
+        android:textSize="20sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="15dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvEducation4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/school1"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/default_color"/>
+
+    <TextView
+        android:id="@+id/tvCourse4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/course4"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvPercentage4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/percentage4"
+        android:textSize="20sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="15dp"
+        android:textStyle="bold"/>
+
+</LinearLayout>
